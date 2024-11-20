@@ -8,6 +8,11 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+	type Task = {
+		id: string;
+		title: string;
+		done: boolean;
+	};
 }
 
 export {};
