@@ -18,17 +18,22 @@
 		Task
 		<input name="newTask" bind:value={newTask} />
 	</label>
-	<div class="button-container">
-		<button>Add</button>
+	<div>
+		<button class="submit-button">Add</button>
 	</div>
 </form>
 
 <style>
-	form {
-		margin-bottom: 1rem;
+	.submit-button {
+		margin-left: 1rem;
+		margin-top: 0.3rem;
 	}
-	.button-container {
+	label {
+		width: 100%;
+	}
+	form {
 		display: flex;
-		justify-content: right;
+		justify-content: space-between;
+		align-items: center;
 	}
 </style>

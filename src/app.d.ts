@@ -13,6 +13,7 @@ declare global {
 		title: string;
 		done: boolean;
 	};
+	type Filter = 'all' | 'todo' | 'done';
 }
 
 export {};
